@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_mark_all"
+        android:icon="@drawable/mark_all"
+        android:title="@string/mark_all"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_unselect_all"
+        android:icon="@drawable/unmark_all"
+        android:title="@string/unmark_all"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/change_layout"
+        android:icon="@drawable/grid"
+        android:title="@string/change_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_delete_selected"
+        android:icon="@drawable/delete"
+        android:title="@string/delete_selected"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="app_folder_name">Nirvana Notepad</string>
+    <string name="export_all">Export All</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="discard">Discard</string>
+    <string name="export_to_jpg">Export to Image</string>
+    <string name="export_to_txt">Export to TXT</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="permission_text">Permission to read and write the external data is required to export your notes to your SD card. Now you must go to your system settings to allow the app to backup your notes.</string>
+    <string name="ok">OK</string>
+    <string name="delete_button">delete button</string>
+    <string name="unmark_all">Unmark All</string>
+    <string name="mark_all">Mark All</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="change_layout">Change Layout</string>
+    <string name="add_new_note">Add New Note</string>
+</resources>

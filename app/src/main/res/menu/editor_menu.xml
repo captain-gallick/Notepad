@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_discard"
+        android:title="@string/discard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_export_to_jpg"
+        android:title="@string/export_to_jpg"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_export_to_txt"
+        android:title="@string/export_to_txt"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+</menu>
